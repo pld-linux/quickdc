@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-alpha-src.tar.bz2
+# Source0-md5:	91d9186034b3944f0de6c20ec69a4014
 URL:		http://quickdc.sourceforge.net/
 BuildRequires:	autoconf >= 2.54
 BuildRequires:	automake
