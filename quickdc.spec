@@ -1,16 +1,16 @@
 Summary:	QuickDC - QT Direct Connect client
 Summary(pl):	QuickDC - klient Direct Connecta oparty o QT
 Name:		quickdc
-Version:	0.0.5
+Version:	0.0.6
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-alpha-src.tar.bz2
 URL:		http://quickdc.sourceforge.net/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.54
 BuildRequires:	automake
 BuildRequires:	libtool
-BuildRequires:	qt-devel
+BuildRequires:	qt-devel >= 3.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,12 +20,12 @@ QT Direct Connect client.
 Klient Direct Connecta u¿ywaj±cy biblioteki QT.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{version}-alpha-src
 
 %build
 #cp -f /usr/share/automake/config.* .
-#%%{__make} -f Makefile.dist
-%configure2_13
+%{__make} -f Makefile.dist
+%configure
 
 %{__make} \
 	MOC=%{_bindir}/moc \
