@@ -25,7 +25,7 @@ Klient Direct Connecta u¿ywaj±cy biblioteki QT.
 
 %build
 #cp -f /usr/share/automake/config.* .
-#%{__make} -f Makefile.dist
+#%%{__make} -f Makefile.dist
 %configure2_13
 
 %{__make} \
