@@ -5,14 +5,13 @@ Version:	0.0.5
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}-alpha-src.tar.bz2
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-alpha-src.tar.bz2
 URL:		http://quickdc.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 QT Direct Connect client.
