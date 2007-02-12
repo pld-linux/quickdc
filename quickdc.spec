@@ -1,5 +1,5 @@
 Summary:	QuickDC - Qt Direct Connect client
-Summary(pl.UTF-8):   QuickDC - klient Direct Connecta oparty o Qt
+Summary(pl.UTF-8):	QuickDC - klient Direct Connecta oparty o Qt
 Name:		quickdc
 Version:	0.0.6
 Release:	0.1
