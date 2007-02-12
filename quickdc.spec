@@ -1,5 +1,5 @@
 Summary:	QuickDC - Qt Direct Connect client
-Summary(pl):	QuickDC - klient Direct Connecta oparty o Qt
+Summary(pl.UTF-8):   QuickDC - klient Direct Connecta oparty o Qt
 Name:		quickdc
 Version:	0.0.6
 Release:	0.1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Qt Direct Connect client.
 
-%description -l pl
-Klient Direct Connecta u¿ywaj±cy biblioteki Qt.
+%description -l pl.UTF-8
+Klient Direct Connecta uÅ¼ywajÄ…cy biblioteki Qt.
 
 %prep
 %setup -q -n %{name}-%{version}-alpha-src
